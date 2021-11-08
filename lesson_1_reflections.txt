@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing a diff between two versions of a file is useful in knowing what are the 
+lines in which the changes are made. By identifying the lines that are changed
+we can easily find which line caused the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+ By having easy access to the entire history of a file makes it easier to see how
+ a file has been changed over the course of time and what all things were newly
+ introduced and what all pre existing lines were changed. It is easier to fix bugs 
+ by comparing newer versions with bug free previous versions. So this will make
+ one a more efficient programmer in the long term.
+ 
+ What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros: Commit will not be created in the middle of something . So it will prevent that 
+version from going unusable. It is more flexible. We can create the commit when it 
+feels right.
+Cons: User error can result in not creating a commit after a crucial change and
+can cause loss of data and time.
+
+Why do you think some version control systems, like Git, allow saving multiple files
+ in one commit, while others, like Google Docs, treat each file separately?
+ 
+ Git is a coding oriented version control system, so some files will be depended on 
+ each other and change in one needs to be reflected in the other. So it allows saving 
+ multiple files in one commit. Non code oriented version control systems treat each 
+ file seperately bacause they mostly handle files independent of each other.
+ 
+ How can you use the commands git log and git diff to view the history of files?
+ 
+ git log can be used to view all the commits that are done on a file, it gives the
+ complete file history showing commit id,author and date.
+ git diff is used to compare two summits using their ids. It can be used to find new
+ changes that are done by comparing with the previous summit that is below the present one.
+ 
+ How might using version control make you more confident to make changes that could
+ break something?
+ 
+ As it's very easy to revert to a previous version, it will make one more confident 
+ to make changes that could break something.
+ 
+ Now that you have your workspace set up, what do you want to try using Git for?
+ 
+ For my job.
+ 
+ 
+ 
+ 
+ 
