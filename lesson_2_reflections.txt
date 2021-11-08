@@ -1,0 +1,16 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialise a git repository , a hidden file containing metadata 
+that shows the history of the repository will be formed. It is formed so
+that we can clone it to other computers and the history of the repository
+is transferred. 
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area is different from the working directory and the repository,
+it is in between them. It helps to add files one by one from working 
+directory to the repository. So we can get different commits for different
+logical changes.
+
